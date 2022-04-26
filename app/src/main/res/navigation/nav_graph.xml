@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/applyDataFragment">
+
+
+    <dialog
+        android:id="@+id/createTaskFragment"
+        android:name="com.example.android2hm1.ui.fragments.CreateTaskFragment"
+        android:label="fragment_create_task"
+        tools:layout="@layout/fragment_create_task" />
+    <fragment
+        android:id="@+id/taskFragment"
+        android:name="com.example.android2hm1.ui.fragments.TaskFragment"
+        android:label="fragment_task"
+        tools:layout="@layout/fragment_task" />
+    <fragment
+        android:id="@+id/onBoardFragment"
+        android:name="com.example.android2hm1.ui.fragments.OnBoardFragment"
+        android:label="fragment_on_board"
+        tools:layout="@layout/fragment_on_board" />
+    <dialog
+        android:id="@+id/dialogFragment"
+        tools:layout="@layout/fragment_dialog"
+        android:name="com.example.android2hm1.ui.fragments.DialogFragment"
+        android:label="DialogFragment"/>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.android2hm1.ui.fragments.authentification.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" />
+    <fragment
+        android:id="@+id/applyDataFragment"
+        android:name="com.example.android2hm1.ui.fragments.authentification.ApplyDataFragment"
+        android:label="fragment_apply_data"
+        tools:layout="@layout/fragment_apply_data" />
+    <fragment
+        android:id="@+id/finishRegistrationFragment"
+        android:name="com.example.android2hm1.ui.fragments.authentification.FinishRegistrationFragment"
+        android:label="fragment_finish_registration"
+        tools:layout="@layout/fragment_finish_registration" />
+</navigation>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1057711739110",
+    "project_id": "qwerty-164d9",
+    "storage_bucket": "qwerty-164d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057711739110:android:33cea63fbff963ddf1eb27",
+        "android_client_info": {
+          "package_name": "com.example.android2hw1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057711739110-1656rv8790bd76ka7dddende9eodudqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android2hw1",
+            "certificate_hash": "0737c11e56201b32ee41f77cbbfdfbc0e8c387d6"
+          }
+        },
+        {
+          "client_id": "1057711739110-j36g0pg2rb5smoltocv4l1idjb9kfmnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWhuHJP0ZuX7wCcyJjkbG1_cm9DsFq3z0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057711739110-j36g0pg2rb5smoltocv4l1idjb9kfmnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
